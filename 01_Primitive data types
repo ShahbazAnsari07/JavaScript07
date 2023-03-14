@@ -1,0 +1,28 @@
+// nn bb ss u - Primitive in js.
+
+N-NUll
+N-Number
+S-Symbol
+S-String
+B-Boolean
+B-BigInt
+U-Undefined
+
+let a = null;
+let b = 345;
+let c = true;
+let d = BigInt("654") + BigInt("3")
+let e = "Harry"
+let f = Symbol("I am a symbol")
+let g = undefined
+console.log(a, b, c, d, e, f, g)
+console.log(typeof d)
+
+// Basics of Objects in JavaScript
+const item = {
+  "Shahbaz": true,
+  "Aparna": 7,
+  "Ben": false,
+  "Harsh": undefined
+}
+console.log(item["Shahbaz"])
