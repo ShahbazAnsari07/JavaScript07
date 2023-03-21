@@ -1,0 +1,27 @@
+// Collection of characters is called string
+
+let name = "Shahbaz"
+console.log(name[0])
+console.log(name[1])
+console.log(name.length)
+
+// Template Literals
+
+let boy1 = "Shahbaz"
+let boy2 = "Harsh"
+// harsh is a fiend of shahbaz
+
+let sentence = `${boy2} is a friend of ${boy1}`
+console.log(sentence)
+
+// Escape sequence Characters
+let fruit = "Bana\"na"
+console.log(fruit)
+
+let veggies = "Bitter\nGourd"
+console.log(veggies)
+
+let Croc = "Anima\rl"
+console.log(Croc)
+
+// THE END //
