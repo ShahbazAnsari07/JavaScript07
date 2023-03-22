@@ -1,0 +1,57 @@
+// String Methods
+
+let name = "Harry"
+console.log(name.length) // .length is used to find length of string.
+
+let naam = "Shahbaz\""
+console.log(naam.length)
+
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+
+console.log(name.slice(2, 4))
+console.log(name.replace("Har" , "Per"))
+
+
+let friend = "Shahbaz"
+console.log(friend.concat(" is a friend of ", name, " Ok"))
+
+let friend2 = "    Meena    "
+
+console.log(friend2.trim())
+
+let fr = "Shahbaz"
+console.log(fr[0])
+console.log(fr[1])
+console.log(fr[2])
+console.log(fr[3])
+console.log(fr[4])
+console.log(fr[5])
+console.log(fr[6])
+
+// Quickquiz: use a for loop to print a string
+
+let string  = "const"
+for(let i of string) {
+  console.log(i)
+}
+
+// Compairing Strings
+
+const a = "a"
+const b = "b"
+
+if(a<b) {
+  console.log(`${a} is less than ${b}`)
+}
+else if(a>b) {
+  console.log(`${a} is greater than ${b}`)
+}
+else {
+  console.log(`${a} and ${b} are equal`)
+}
+
+
+// THE END //
+
+
