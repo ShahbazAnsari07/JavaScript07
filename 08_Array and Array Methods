@@ -1,0 +1,54 @@
+// Arrays in Js are objects.
+
+let marks_12 = [97, 98, 89, 92, 88, false, "Not present"]
+console.log(marks_12[0])
+console.log(marks_12[1])
+console.log(marks_12[2])
+console.log(marks_12[3])
+console.log(marks_12[4])
+console.log(marks_12[5])
+console.log(marks_12[6])
+console.log(marks_12[7])  // will be undefined bcoz it does not exist.
+
+// We can use the .length property to find the length of the array.
+console.log("The length of marks_12 is", marks_12.length)
+
+marks_12[7] = 90 // Adding a new value to the array
+console.log(marks_12)
+
+// // We can also change a value in an array
+marks_12[2] = 100
+console.log(marks_12) 
+
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, "Shahbaz_Ansari"]
+
+for (let i = 0; i < arr.length; i++) {
+
+}
+console.log(arr)
+
+// ARRAY METHODS IN JAVASCRIPT.
+
+let num = [1, 2, 3, 4, 5, 6]
+let b = num.toString() // b is now a string
+console.log(b)
+
+let c = num.join("_")
+console.log(c)
+
+let r = num.pop() // Pop returns the popped element
+console.log(num, r)
+
+let r = num.push(56) // push returns the new array length.
+console.log(num, r)
+
+// shift removes the first element of the array
+let r = num.shift()
+console.log(r, num)
+
+// unshift add the new element in the beginning of the array.
+let r1 = num.unshift(100)
+console.log(r1, num)
+
+// THE END //
