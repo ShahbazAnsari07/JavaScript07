@@ -1,0 +1,33 @@
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+delete num[0]
+console.log(num )
+
+let num_more = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+// concatinating two arrays
+let newArray = num.concat(num_more)
+console.log(newArray)
+
+Sort method
+let compare = (a, b) => {
+  return a - b
+}
+let number = [1, 22, 45, 12, 5, 6, 9, 7]
+number.sort(compare)
+number.reverse()
+console.log(number)
+
+
+// Splice and slice
+// Splice is used to add new elements in an array.
+let num1 = [551, 25, 45, 70, 69, 50]
+num1.splice(2, 3, 1021, 1022, 1023, 1024)
+console.log(num1)
+
+// Slice is used to slice out a piece from an array.
+// Slice creates a new array.
+let newNum = num1.slice(3)
+let newNum = num1.slice(3, 5) // Not include 5
+console.log(newNum)
+
+// THE END //
