@@ -1,0 +1,29 @@
+// Loops in Arrays.
+
+let num = [3, 54, 12, 4, 10]
+for(let i = 0; i<num.length; i++) {
+  console.log(num[i])
+}
+
+// forEach Loop
+num.forEach((element) => {
+  console.log(element*element)
+})
+
+// Array.from
+let name = "shahbaz"
+let arr = Array.from(name)
+console.log(arr)
+
+
+// for....of
+for(let item of num) {
+  console.log(item)
+}
+
+// for....in
+for(let i in num) {
+  console.log(num[i])
+}
+
+// THE END // 
