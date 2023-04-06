@@ -1,0 +1,21 @@
+// These are the various kinds of console methods in JavaScript.
+
+console.log("log")
+console.info("info")
+console.warn("warn")
+console.error("err")
+console.assert("err" != false)
+console.log("err" == false)
+
+
+// This method is used for finding the time.
+
+console.time("forLoop")
+
+for(let i = 0; i<5; i++) {
+  console.log(233)
+}
+
+console.timeEnd("forLoop")
+
+// THE END //
